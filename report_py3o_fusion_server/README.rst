@@ -79,6 +79,10 @@ Installation of py3o.renderserver:
 .. code::
 
   pip3 install py3o.renderserver
+  
+  if this generates any error, you can install 
+  
+.. code:: pip3 install git+https://gitlab.com/nicoclavier/py3o.renderers.juno.git, this is what creates the JavaServer that randers the Adobe transformation PDF files.
 
 At the end, with the dependencies, you should have the following py3o python libs:
 
